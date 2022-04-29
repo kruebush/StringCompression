@@ -11,7 +11,7 @@ public class Compression
     public static void main( String[] args )
     {
         Compression comp = new Compression();
-        System.out.println(comp.compress("aabccccaaaa"));
+        System.out.println(comp.compress("aabcccccaaa"));
         System.out.println(comp.compress("abcdef"));
     }
     public static String compress(String str) {
